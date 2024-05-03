@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MULTILEVEL BANDSCORE CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Multilevel band score calculator</h1>
+    <form id="forum">
+        <b>listening</b>
+        <input type="number" id="listening" placeholder="type here ..." required>
+
+        <b>reading</b>
+        <input type="number" id="reading" placeholder="type here ..." required>
+
+        <b>writing</b>
+        <input type="number" id="writing" placeholder="type here ..." required>
+
+        <b>speaking</b>
+        <input type="number" id="speaking" placeholder="type here ..." required>
+        <button type="submit">check</button>
+        <div class="res">
+            <h3>result here: </h3>
+            <b id="temp"></b>
+        </div>
+    </form>
+
+    <script type="module" src="./script.js"></script>
+</body>
+
+</html>
